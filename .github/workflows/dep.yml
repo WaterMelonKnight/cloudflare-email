@@ -24,10 +24,6 @@ jobs:
     - name: Install dependencies
       run: npm install
 
-    # Step 4: 构建项目（如果你的项目需要构建）
-    - name: Build the project
-      run: npm run build  # 如果你的项目没有构建步骤，可以跳过这一行
-
     # Step 5: 安装 Wrangler CLI 工具
     - name: Install Wrangler
       run: npm install -g wrangler
