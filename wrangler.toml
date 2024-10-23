@@ -5,3 +5,7 @@ compatibility_date = "2023-05-18"
 [vars]
 Authorization = "Bearer Jai_0kHUzPX4IMIBW_0DNxaS1iOmERuBthvt0xkc"
 
+# wrangler.toml (wrangler v3.79.0^)
+[observability]
+enabled = true
+head_sampling_rate = 1
